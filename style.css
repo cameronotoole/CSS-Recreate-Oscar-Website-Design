@@ -1,0 +1,135 @@
+body {
+  background-color: #6969;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+
+header {
+  border-bottom: 0.14em solid #fff;
+}
+
+/* top nav bar */
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  background-color: #1f1e1e;
+  font-family: arial;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropdownbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover,
+.dropdownbtn {
+  background-color: #9bc7b5;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #929191;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  text-align: left;
+  float: none;
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* header drop down/hamburger */
+
+.dropdown01 {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown01 .hamburgerbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #fff;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+a:hover,
+.dropdown01:hover,
+.hamburgerbtn {
+  background-color: #9bc7b5;
+}
+
+.dropdown-content01 {
+  display: none;
+  position: left;
+  background-color: #929191;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content01 a {
+  display: block;
+  text-align: left;
+  float: none;
+  color: #000;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content01 a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown01:hover .dropdown-content01 {
+  display: block;
+}
+
+.main-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
